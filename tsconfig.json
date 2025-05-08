@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "checkJs": true,
+    "target": "ES2016",
+    "outDir": "dist",
+    "module": "ESNext",
+    "allowSyntheticDefaultImports": true
+  }
+}
