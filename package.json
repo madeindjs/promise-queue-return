@@ -1,6 +1,7 @@
 {
   "name": "promise-queue-return",
   "type": "module",
+  "types": "index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/madeindjs/promise-queue-return.git"
@@ -14,14 +15,16 @@
   "bugs": {
     "url": "https://github.com/madeindjs/promise-queue-return/issues"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple plain-JavaScript promise queue that might help you to avoid rate-limiting. This one use an handy API that returns the result of your function",
   "main": "index.js",
   "scripts": {
+    "prepare": "tsc --declaration --allowJs --emitDeclarationOnly index.js",
     "test": "node --test *.spec.js"
   },
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^22.15.17"
+    "@types/node": "^22.15.17",
+    "typescript": "^5.8.3"
   }
 }
