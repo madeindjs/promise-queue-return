@@ -16,7 +16,7 @@ export class PromiseQueue {
   #isRunning = false;
 
   /**
-   * Callback function to execute before a job was executed.
+   * Callback function to execute after a job was executed.
    * @type {undefined | Hook}
    */
   onJobExecuted = undefined;

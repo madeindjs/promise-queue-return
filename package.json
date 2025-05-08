@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/madeindjs/promise-queue-return/issues"
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple plain-JavaScript promise queue that might help you to avoid rate-limiting. This one use an handy API that returns the result of your function",
   "main": "index.js",
   "scripts": {

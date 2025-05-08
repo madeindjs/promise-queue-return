@@ -1,5 +1,7 @@
 # promise-queue-return
 
+[![npm version](https://badge.fury.io/js/promise-queue-return.svg)](https://badge.fury.io/js/promise-queue-return)
+
 A simple plain-JavaScript promise queue that helps you to avoid rate-limiting. This one uses a handy API that returns the result of your function.
 
 ```js
